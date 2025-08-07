@@ -23,7 +23,7 @@ export class DynamicPageComponent {
         ['NFS Most Wanted', Validators.required],
         ['Call of Duty', Validators.required],
       ],
-      Validators.minLength(3)
+      Validators.minLength(2)
     ),
   });
 
